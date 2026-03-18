@@ -18,9 +18,9 @@ PROBLEM STATEMENT:- Add two numbers.
 
 CODE NO :- 2
 
-a = 5
-b = 10
-print(a + b)
+    a = 5
+    b = 10
+    print(a + b)
 
 OUTPUT :-
 15
@@ -30,12 +30,12 @@ OUTPUT :-
 PROBLEM STATEMENT:- Check even or odd.
 
 CODE NO :- 3
-
-n = 7
-if n % 2 == 0:
-print("Even")
-else:
-print("Odd")
+    
+    n = 7
+    if n % 2 == 0:
+    print("Even")
+    else:
+    print("Odd")
 
 OUTPUT :-
 Odd
@@ -46,10 +46,10 @@ PROBLEM STATEMENT:- Swap two numbers.
 
 CODE NO :- 4
 
-a = 5
-b = 10
-a, b = b, a
-print(a, b)
+    a = 5
+    b = 10
+    a, b = b, a
+    print(a, b)
 
 OUTPUT :-
 10 5
@@ -60,9 +60,9 @@ PROBLEM STATEMENT:- Find largest of two numbers.
 
 CODE NO :- 5
 
-a = 10
-b = 20
-print(max(a, b))
+    a = 10
+    b = 20
+    print(max(a, b))
 
 OUTPUT :-
 20
@@ -73,8 +73,8 @@ PROBLEM STATEMENT:- Find largest of three numbers.
 
 CODE NO :- 6
 
-a, b, c = 10, 25, 15
-print(max(a, b, c))
+    a, b, c = 10, 25, 15
+    print(max(a, b, c))
 
 OUTPUT :-
 25
@@ -85,13 +85,13 @@ PROBLEM STATEMENT:- Check positive, negative or zero.
 
 CODE NO :- 7
 
-n = -5
-if n > 0:
-print("Positive")
-elif n == 0:
-print("Zero")
-else:
-print("Negative")
+    n = -5
+    if n > 0:
+    print("Positive")
+    elif n == 0:
+    print("Zero")
+    else:
+    print("Negative")
 
 OUTPUT :-
 Negative
@@ -102,8 +102,8 @@ PROBLEM STATEMENT:- Sum of first n numbers.
 
 CODE NO :- 8
 
-n = 5
-print(sum(range(1, n+1)))
+    n = 5
+    print(sum(range(1, n+1)))
 
 OUTPUT :-
 15
@@ -114,9 +114,9 @@ PROBLEM STATEMENT:- Multiplication table.
 
 CODE NO :- 9
 
-n = 5
-for i in range(1, 11):
-print(n * i)
+    n = 5
+    for i in range(1, 11):
+    print(n * i)
 
 OUTPUT :-
 5
@@ -136,11 +136,11 @@ PROBLEM STATEMENT:- Find factorial.
 
 CODE NO :- 10
 
-n = 5
-fact = 1
-for i in range(1, n+1):
-fact *= i
-print(fact)
+    n = 5
+    fact = 1
+    for i in range(1, n+1):
+    fact *= i
+    print(fact)
 
 OUTPUT :-
 120
@@ -150,13 +150,13 @@ OUTPUT :-
 PROBLEM STATEMENT:- Reverse a number.
 
 CODE NO :- 11
-
-n = 123
-rev = 0
-while n > 0:
-rev = rev * 10 + n % 10
-n //= 10
-print(rev)
+    
+    n = 123
+    rev = 0
+    while n > 0:
+    rev = rev * 10 + n % 10
+    n //= 10
+    print(rev)
 
 OUTPUT :-
 321
@@ -167,8 +167,8 @@ PROBLEM STATEMENT:- Check palindrome number.
 
 CODE NO :- 12
 
-n = 121
-print(str(n) == str(n)[::-1])
+    n = 121
+    print(str(n) == str(n)[::-1])
 
 OUTPUT :-
 True
@@ -179,8 +179,8 @@ PROBLEM STATEMENT:- Count digits.
 
 CODE NO :- 13
 
-n = 12345
-print(len(str(n)))
+    n = 12345
+    print(len(str(n)))
 
 OUTPUT :-
 5
@@ -191,12 +191,12 @@ PROBLEM STATEMENT:- Sum of digits.
 
 CODE NO :- 14
 
-n = 123
-s = 0
-while n:
-s += n % 10
-n //= 10
-print(s)
+    n = 123
+    s = 0
+    while n:
+    s += n % 10
+    n //= 10
+    print(s)
 
 OUTPUT :-
 6
@@ -207,14 +207,14 @@ PROBLEM STATEMENT:- Armstrong number.
 
 CODE NO :- 15
 
-n = 153
-temp = n
-s = 0
-while temp:
-d = temp % 10
-s += d**3
-temp //= 10
-print(s == n)
+    n = 153
+    temp = n
+    s = 0
+    while temp:
+    d = temp % 10
+    s += d**3
+    temp //= 10
+    print(s == n)
 
 OUTPUT :-
 True
@@ -225,10 +225,10 @@ PROBLEM STATEMENT:- Fibonacci series.
 
 CODE NO :- 16
 
-a, b = 0, 1
-for _ in range(5):
-print(a)
-a, b = b, a + b
+    a, b = 0, 1
+    for _ in range(5):
+    print(a)
+    a, b = b, a + b
 
 OUTPUT :-
 0
@@ -243,13 +243,13 @@ PROBLEM STATEMENT:- Check prime number.
 
 CODE NO :- 17
 
-n = 7
-for i in range(2, n):
-if n % i == 0:
-print("Not Prime")
-break
-else:
-print("Prime")
+    n = 7
+    for i in range(2, n):
+    if n % i == 0:
+    print("Not Prime")
+    break
+    else:
+    print("Prime")
 
 OUTPUT :-
 Prime
@@ -260,12 +260,12 @@ PROBLEM STATEMENT:- Print prime numbers in range.
 
 CODE NO :- 18
 
-for n in range(2, 20):
-for i in range(2, n):
-if n % i == 0:
-break
-else:
-print(n)
+    for n in range(2, 20):
+    for i in range(2, n):
+    if n % i == 0:
+    break
+    else:
+    print(n)
 
 OUTPUT :-
 2
@@ -282,9 +282,9 @@ OUTPUT :-
 PROBLEM STATEMENT:- Find GCD.
 
 CODE NO :- 19
-
-import math
-print(math.gcd(12, 18))
+    
+    import math
+    print(math.gcd(12, 18))
 
 OUTPUT :-
 6
@@ -295,9 +295,9 @@ PROBLEM STATEMENT:- Find LCM.
 
 CODE NO :- 20
 
-import math
-a, b = 12, 18
-print((a*b)//math.gcd(a,b))
+    import math
+    a, b = 12, 18
+    print((a*b)//math.gcd(a,b))
 
 OUTPUT :-
 36
@@ -308,8 +308,8 @@ PROBLEM STATEMENT:- Reverse string.
 
 CODE NO :- 21
 
-s = "hello"
-print(s[::-1])
+    s = "hello"
+    print(s[::-1])
 
 OUTPUT :-
 olleh
@@ -320,8 +320,8 @@ PROBLEM STATEMENT:- Palindrome string.
 
 CODE NO :- 22
 
-s = "madam"
-print(s == s[::-1])
+    s = "madam"
+    print(s == s[::-1])
 
 OUTPUT :-
 True
@@ -332,9 +332,9 @@ PROBLEM STATEMENT:- Count vowels.
 
 CODE NO :- 23
 
-s = "hello"
-count = sum(1 for i in s if i in "aeiou")
-print(count)
+    s = "hello"
+    count = sum(1 for i in s if i in "aeiou")
+    print(count)
 
 OUTPUT :-
 2
@@ -345,8 +345,8 @@ PROBLEM STATEMENT:- Remove spaces.
 
 CODE NO :- 24
 
-s = "hello world"
-print(s.replace(" ", ""))
+    s = "hello world"
+    print(s.replace(" ", ""))
 
 OUTPUT :-
 helloworld
@@ -357,7 +357,7 @@ PROBLEM STATEMENT:- Convert to uppercase.
 
 CODE NO :- 25
 
-print("hello".upper())
+    print("hello".upper())
 
 OUTPUT :-
 HELLO
@@ -367,8 +367,8 @@ HELLO
 PROBLEM STATEMENT:- Convert to lowercase.
 
 CODE NO :- 26
-
-print("HELLO".lower())
+        
+    print("HELLO".lower())
 
 OUTPUT :-
 hello
@@ -379,7 +379,7 @@ PROBLEM STATEMENT:- Find string length.
 
 CODE NO :- 27
 
-print(len("python"))
+    print(len("python"))
 
 OUTPUT :-
 6
@@ -390,8 +390,8 @@ PROBLEM STATEMENT:- First character of string.
 
 CODE NO :- 28
 
-s = "Ved"
-print(s[0])
+    s = "Ved"
+    print(s[0])
 
 OUTPUT :-
 V
@@ -402,8 +402,8 @@ PROBLEM STATEMENT:- Last character of string.
 
 CODE NO :- 29
 
-s = "Ved"
-print(s[-1])
+    s = "Ved"
+    print(s[-1])
 
 OUTPUT :-
 d
@@ -414,7 +414,7 @@ PROBLEM STATEMENT:- Concatenate strings.
 
 CODE NO :- 30
 
-print("Ved" + " Pillewar")
+    print("Ved" + " Pillewar")
 
 OUTPUT :-
 Ved Pillewar
@@ -425,8 +425,8 @@ PROBLEM STATEMENT:- Create list.
 
 CODE NO :- 31
 
-l = [1,2,3]
-print(l)
+    l = [1,2,3]
+    print(l)
 
 OUTPUT :-
 [1, 2, 3]
@@ -437,8 +437,8 @@ PROBLEM STATEMENT:- Sum of list.
 
 CODE NO :- 32
 
-l = [1,2,3]
-print(sum(l))
+    l = [1,2,3]
+    print(sum(l))
 
 OUTPUT :-
 6
@@ -449,8 +449,8 @@ PROBLEM STATEMENT:- Maximum in list.
 
 CODE NO :- 33
 
-l = [1,5,2]
-print(max(l))
+    l = [1,5,2]
+    print(max(l))
 
 OUTPUT :-
 5
@@ -461,8 +461,8 @@ PROBLEM STATEMENT:- Minimum in list.
 
 CODE NO :- 34
 
-l = [1,5,2]
-print(min(l))
+    l = [1,5,2]
+    print(min(l))
 
 OUTPUT :-
 1
@@ -473,9 +473,9 @@ PROBLEM STATEMENT:- Sort list.
 
 CODE NO :- 35
 
-l = [3,1,2]
-l.sort()
-print(l)
+    l = [3,1,2]
+    l.sort()
+    print(l)
 
 OUTPUT :-
 [1, 2, 3]
@@ -486,8 +486,8 @@ PROBLEM STATEMENT:- Reverse list.
 
 CODE NO :- 36
 
-l = [1,2,3]
-print(l[::-1])
+    l = [1,2,3]
+    print(l[::-1])
 
 OUTPUT :-
 [3, 2, 1]
@@ -498,9 +498,9 @@ PROBLEM STATEMENT:- Remove element from list.
 
 CODE NO :- 37
 
-l = [1,2,3]
-l.remove(2)
-print(l)
+    l = [1,2,3]
+    l.remove(2)
+    print(l)
 
 OUTPUT :-
 [1, 3]
@@ -511,9 +511,9 @@ PROBLEM STATEMENT:- Append element to list.
 
 CODE NO :- 38
 
-l = [1,2]
-l.append(3)
-print(l)
+    l = [1,2]
+    l.append(3)
+    print(l)
 
 OUTPUT :-
 [1, 2, 3]
@@ -524,8 +524,8 @@ PROBLEM STATEMENT:- Count occurrences.
 
 CODE NO :- 39
 
-l = [1,2,2,3]
-print(l.count(2))
+    l = [1,2,2,3]
+    print(l.count(2))
 
 OUTPUT :-
 2
@@ -536,8 +536,8 @@ PROBLEM STATEMENT:- Remove duplicates.
 
 CODE NO :- 40
 
-l = [1,2,2,3]
-print(list(set(l)))
+    l = [1,2,2,3]
+    print(list(set(l)))
 
 OUTPUT :-
 [1, 2, 3]
@@ -548,8 +548,8 @@ PROBLEM STATEMENT:- Create dictionary.
 
 CODE NO :- 41
 
-d = {"a":1, "b":2}
-print(d)
+    d = {"a":1, "b":2}
+    print(d)
 
 OUTPUT :-
 {'a': 1, 'b': 2}
@@ -560,7 +560,7 @@ PROBLEM STATEMENT:- Access dictionary value.
 
 CODE NO :- 42
 
-print({"a":1}["a"])
+    print({"a":1}["a"])
 
 OUTPUT :-
 1
@@ -570,10 +570,10 @@ OUTPUT :-
 PROBLEM STATEMENT:- Update dictionary.
 
 CODE NO :- 43
-
-d = {"a":1}
-d["b"] = 2
-print(d)
+    
+    d = {"a":1}
+    d["b"] = 2
+    print(d)
 
 OUTPUT :-
 {'a': 1, 'b': 2}
@@ -584,7 +584,7 @@ PROBLEM STATEMENT:- Get dictionary keys.
 
 CODE NO :- 44
 
-print({"a":1}.keys())
+    print({"a":1}.keys())
 
 OUTPUT :-
 dict_keys(['a'])
@@ -595,7 +595,7 @@ PROBLEM STATEMENT:- Get dictionary values.
 
 CODE NO :- 45
 
-print({"a":1}.values())
+    print({"a":1}.values())
 
 OUTPUT :-
 dict_values([1])
@@ -606,8 +606,8 @@ PROBLEM STATEMENT:- Create set.
 
 CODE NO :- 46
 
-s = {1,2,3}
-print(s)
+    s = {1,2,3}
+    print(s)
 
 OUTPUT :-
 {1, 2, 3}
@@ -618,9 +618,9 @@ PROBLEM STATEMENT:- Add element to set.
 
 CODE NO :- 47
 
-s = {1,2}
-s.add(3)
-print(s)
+    s = {1,2}
+    s.add(3)
+    print(s)
 
 OUTPUT :-
 {1, 2, 3}
@@ -631,9 +631,9 @@ PROBLEM STATEMENT:- Remove element from set.
 
 CODE NO :- 48
 
-s = {1,2,3}
-s.remove(2)
-print(s)
+    s = {1,2,3}
+    s.remove(2)
+    print(s)
 
 OUTPUT :-
 {1, 3}
@@ -644,8 +644,8 @@ PROBLEM STATEMENT:- Create tuple.
 
 CODE NO :- 49
 
-t = (1,2,3)
-print(t)
+    t = (1,2,3)
+    print(t)
 
 OUTPUT :-
 (1, 2, 3)
@@ -656,7 +656,7 @@ PROBLEM STATEMENT:- Length of tuple.
 
 CODE NO :- 50
 
-print(len((1,2,3)))
+    print(len((1,2,3)))
 
 OUTPUT :-
 3
@@ -667,8 +667,8 @@ PROBLEM STATEMENT:- Simple interest.
 
 CODE NO :- 51
 
-p, r, t = 1000, 5, 2
-print((p*r*t)/100)
+    p, r, t = 1000, 5, 2
+    print((p*r*t)/100)
 
 OUTPUT :-
 100.0
@@ -678,9 +678,9 @@ OUTPUT :-
 PROBLEM STATEMENT:- Area of circle.
 
 CODE NO :- 52
-
-r = 5
-print(3.14*r*r)
+    
+    r = 5
+    print(3.14*r*r)
 
 OUTPUT :-
 78.5
@@ -691,8 +691,8 @@ PROBLEM STATEMENT:- Area of rectangle.
 
 CODE NO :- 53
 
-l, b = 5, 10
-print(l*b)
+    l, b = 5, 10
+    print(l*b)
 
 OUTPUT :-
 50
@@ -703,8 +703,8 @@ PROBLEM STATEMENT:- Celsius to Fahrenheit.
 
 CODE NO :- 54
 
-c = 25
-print((c*9/5)+32)
+    c = 25
+    print((c*9/5)+32)
 
 OUTPUT :-
 77.0
@@ -715,8 +715,8 @@ PROBLEM STATEMENT:- Fahrenheit to Celsius.
 
 CODE NO :- 55
 
-f = 77
-print((f-32)*5/9)
+    f = 77
+    print((f-32)*5/9)
 
 OUTPUT :-
 25.0
@@ -727,8 +727,8 @@ PROBLEM STATEMENT:- Check leap year.
 
 CODE NO :- 56
 
-year = 2024
-print(year%4==0 and (year%100!=0 or year%400==0))
+    year = 2024
+    print(year%4==0 and (year%100!=0 or year%400==0))
 
 OUTPUT :-
 True
@@ -739,8 +739,8 @@ PROBLEM STATEMENT:- Count even numbers in list.
 
 CODE NO :- 57
 
-l = [1,2,3,4]
-print(sum(1 for i in l if i%2==0))
+    l = [1,2,3,4]
+    print(sum(1 for i in l if i%2==0))
 
 OUTPUT :-
 2
@@ -751,11 +751,11 @@ PROBLEM STATEMENT:- Sum list using loop.
 
 CODE NO :- 58
 
-l = [1,2,3]
-s = 0
-for i in l:
-s += i
-print(s)
+    l = [1,2,3]
+    s = 0
+    for i in l:
+    s += i
+    print(s)
 
 OUTPUT :-
 6
@@ -766,8 +766,8 @@ PROBLEM STATEMENT:- Find element in list.
 
 CODE NO :- 59
 
-l = [1,2,3]
-print(2 in l)
+    l = [1,2,3]
+    print(2 in l)
 
 OUTPUT :-
 True
@@ -778,8 +778,8 @@ PROBLEM STATEMENT:- Simple calculator.
 
 CODE NO :- 60
 
-a, b = 5, 2
-print(a+b, a-b, a*b, a/b)
+    a, b = 5, 2
+    print(a+b, a-b, a*b, a/b)
 
 OUTPUT :-
 7 3 10 2.5
